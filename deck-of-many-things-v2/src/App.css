@@ -1,0 +1,61 @@
+body {
+  background: black;
+  /* height: 99vh;
+  overflow: hidden; */
+  margin: 0;
+  color: white;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.img_container img {
+  max-height: 70vh;
+  width: auto;
+  
+  margin: auto;
+}
+
+.overlay {
+  margin: auto;
+  
+  width: 30vw;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+  color: black;
+  background: white;
+}
+
+#Del_Shuff_conatiner{
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+#shuffle_svg {
+  fill: white;
+  /* margin: auto; */
+}
+
+#shuffle_svg:hover {
+  fill: rgb(62, 62, 211)
+} 
+
+/* #del_svg{
+  fill: white
+} */
+
+#del_svg:hover, .toggled_on{
+  fill: rgb(177, 27, 27)
+}
